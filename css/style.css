@@ -139,8 +139,21 @@ footer li:before {
     /* padding-bottom: -10px; */
 }
 
+#longhorn {
+    height: 75px;
+    margin-top: 40px;
+}
+
 .projectText, #longInfo, .worksText {
     font-family: 'Lato', sans-serif;
+}
+
+.is-info {
+    background-color: #4973a5 !important;
+}
+
+.is-dark {
+    background-color: #404243 !important;
 }
 
 #biography {
