@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JMD Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Archivo:700|Questrial|Lato" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+    </head>
+
+    <!-- Page -->
+    <body>
+
+        <!-- Hero Component -->
+        <section class="hero is-medium is-bold">
+            <div class="hero-head">
+
+                <!-- Navbar -->
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="/">
+                                <p class="is-size-4" id="navbarName">Jonathan M. Davis</p>
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <div class="tabs is-right">
+                                    <ul>
+                                        <li class="is-active"><a>Home</a></li>
+                                        <li><a href="">Projects</a></li>
+                                        <li><a href="">Biography</a></li>
+                                        <li><a href="">Works</a></li>
+                                        <li><a href="">Contact</a></li>
+                                    </ul>
+                                    <span class="navbar-item">
+                                        <a class="button is-white is-outlined" href="https://github.com/JonathanDavis22">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                            <span title="Hello from the other side">My GitHub</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+            </div>
+
+            <!-- Hero Body for Image -->
+            <div class="hero-body"></div>
+        </section>
+
+        <!-- Lower Infobox -->
+        <div class="box cta">
+            <p class="has-text-centered" id="miniInfo">
+                  Full-stack Web Developer and Copywriter with a special interest in Front-end based in Seattle, Washington.
+            </p>
+        </div>
+
+        <!-- Projects and works Section -->
+        <section class="container">
+            <div class="columns features">
+
+            <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class='fas fa-moon' style='color:#141a4f;'></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <br>
+                                <h4 class="is-size-5 projectText">Night Owl Booklist</h4>
+                                <p class="projectText">My first full-stack web app. It's an MVC booklist! Built using HTML, CSS, Bootstrap, JavaScript, JQuery, Handlebars, and an updatable MySQL database from the browser. Hosted on Heroku. Get your read on!</p>
+                                <p><a href="https://github.com/JonathanDavis22/booklist">GitHub Repo</a></p>
+                                <p><a href="https://night-owl-booklist.herokuapp.com/">Deployed Version</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <br>
+                                <h4 class="is-size-5 projectText">Writer Clicky Game</h4>
+                                <p class="projectText">My first React application, a literary-themed memory clicky-game. Written in HTML, raw CSS, JavaScript, React, and hosted on GitHub Pages.</p>
+                                <p><a href="https://github.com/JonathanDavis22/Writer-Clicky-Game">GitHub Repo</a></p>
+                                <p><a href="https://jonathandavis22.github.io/Writer-Clicky-Game/">Deployed Version</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <img src="./images/skillet.svg" id="skillet">
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4 class="is-size-5 projectText">skill.it skillshare</h4>
+                                <p class="projectText">A full-stack skillshare web app built by a team of four. My role was the group's front-end developer, where all HTML/CSS, front-end JavaScript, and even some of the back-end JavaScript was written by me.</p>
+                                <p><a href="https://github.com/macdhollister/skill.it">GitHub Repo</a></p>
+                                <p><a href="https://skillit-si.herokuapp.com/">Deployed Version</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+            </div>
+
+            <!-- Sandbox Columnnar Grid -->
+            <div class="sandbox worksText">
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title is-italic is-size-4">Train Scheduler</p>
+                            <img src="./images/train.png" alt="Train Scheduler">
+                            <br>
+                            <p><a href="https://github.com/JonathanDavis22/Train-Scheduler">GitHub</a></p>
+                            <p><a href="https://jonathandavis22.github.io/Train-Scheduler/">Deployed Version</a></p>
+                            <br>
+                            <!-- <p>An API-based train-scheduling application using HTML, CSS, JavaScript, and Moment.</p> -->
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title is-italic is-size-4">Seattle Hangman</p>
+                            <img src="./images/wordGuess.png" alt="Word-Guess Game">
+                            <br>
+                            <p><a href="https://github.com/JonathanDavis22/Word-Guess-Game">GitHub</a></p>
+                            <p><a href="https://jonathandavis22.github.io/Word-Guess-Game/">Deployed Version</a></p>
+                            <br>
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title is-italic is-size-4">Washington Trivia</p>
+                            <img src="./images/triviaGame.png" alt="Trivia Game">
+                            <br>
+                            <p><a href="https://github.com/JonathanDavis22/TriviaGame/blob/master/README.md">GitHub</a></p>
+                            <p><a href="https://jonathandavis22.github.io/TriviaGame/">Deployed Version</a></p>
+                            <br>
+                        </article>
+                    </div>
+
+                </div>
+                
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Liri Node App</p>
+                            <p class="subtitle">A Siri-style JavaScript/Node application.</p>
+                            <div class="content">
+                                <p><a href="https://github.com/JonathanDavis22/liri-node-app">GitHub</a></p>
+                                <img src="./images/liri1.png" alt="liri" id="liri1">
+                                <img src="./images/liri2.png" alt="liri" id="liri2">
+                                <img src="./images/liri3.png" alt="liri" id="liri3">
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent is-8 is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title is-italic">Seattle Coffee Search</p>
+                            <p class="subtitle">First team project</p>
+                            <img src="./images/SCS.png" alt="Seattle Coffee Search">
+                            <br>
+                            <p><a href="https://github.com/macdhollister/Seattle-Coffee-Search">GitHub</a></p>
+                            <p><a href="https://macdhollister.github.io/Seattle-Coffee-Search/">Deployed Version</a></p>
+                            <br>
+                            <div class="content">
+                                <p>Seattle Coffee Search is a community-focused specialty coffee-search web-application designed to accommodate discerning Seattleites. Defined by famously rich topography, Seattle's neighborhoods have, to various degrees, grown in petri dishes. As the city's tech boom advances, its population grows, neighborhoods densify, transpo networks are developed, and its culture homogenizes—but its neighborhoods still retain, to various degrees, their unique flavor. Or some develop new flavors for new tastes. Tastes—are we talking about coffee here? I could go for a cup of coffee. There are a thousand coffeeshops in this city—third spaces to enjoy (not work, nor home, but the vaunted public living room). Some spots are better or worse than others for various reasons. Sometimes you want to go somewhere new to enjoy yourself, or maybe you find yourself across town in a less-familiar neighborhood. Whatever your purpose, Seattle Coffee Search’ll help you find your next cup. Play around with the data collection and see what you find.
+                                <br>
+                                <br>
+                                How does it work? Start by selecting the card of the neighborhood you’re in or would like to get coffee in. Using both the Yelp and Google Maps APIs, as well as Seattle city governmental data, the fifty top Yelp-rated coffeeshops, cafés, etc. in that area are then populated with markers on the Google Map. Click them to view pertinent business information, such as the business’s name, rating, and address. It’s as easy as that. Drag and click freely to explore the data collection through the map interface and check out the Seattle coffee scene. Get to know the cafés where you are, where you find yourself, and where you want to be—and remember: stay caffeinated. You must always stay caffeinated.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-8 is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Bamazon</p>
+                            <p class="subtitle">Node Storefront App</p>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                                <img src="./images/bamazon.png" alt="Bamazon" id="bamazonImage">
+                                <img src="./images/bamazon2.png" alt="Bamazon" id="bamazonImage2">
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="tile is-parent is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Giftastic</p>
+                            <p class="subtitle">Giphy API Search Application</p>
+                            <div class="content">
+                                <img src="./images/giftastic.png" alt="Giftastic" id="giftasticImage">
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container" id="biography">
+            <div class="level">
+                <div class="card is-shady level">
+                    <div class="intro card-content" id="longInfo">
+                        <h2 class="title is-size-5 is-italic">A little more about me:</h2><br>
+                        <p class="subtitle is-size-6">I am a Full-Stack Web Developer with a certificate from the University of Washington, Seattle. Coming from a liberal arts background (B.A. Rhetoric and Writing, University of Texas at Austin) and years of professional work in copywriting and market demo/psychographics, not only can I build a full website or web app—I can make sure the copy on it is ace, meeting brand and market targets. I am passionate about eloquent code, team collaboration, and learning more every day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-3 is-offset-2">
+                        <h2><strong class="category">Technologies</strong></h2>
+                        <ul>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">Bootstrap</a></li>
+                            <li><a href="#">Bulma</a></li>
+                            <li><a href="#">Express.js</a></li>
+                            <li><a href="#">React.js</a></li>
+                            <li><a href="#">Node.js</a></li>
+                            <li><a href="#">MongoDB</a></li>
+                            <li><a href="#">MySQL</a></li>
+                            <li><a href="#">AJAX</a></li>
+                            <li><a href="#">APIs</a></li>
+                            <li><a href="#">JSON</a></li>
+                            <li><a href="#">Command Line</a></li>
+                            <li><a href="#">Git/GitHub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="column is-3">
+                        <h2><strong class="category">Skills</strong></h2>
+                        <ul>
+                            <li><a href="#">Copywriting</a></li>
+                            <li><a href="#">Editing</a></li>
+                            <li><a href="#">Brand & Content Strategy</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Content & Design Sense</a></li>
+                            <li><a href="#">Responsive Design</a></li>
+                            <li><a href="#">FTP</a></li>
+                            <li><a href="#">Bug Testing</a></li>
+                            <li><a href="#">Dev Tools</a></li>
+                            <li><a href="#">Teamwork</a></li>
+                            <li><a href="#">Communication</a></li>
+                            <li><a href="#">Persuasion</a></li>
+                            <li><a href="#">Storytelling</a></li>
+                            <!-- <li><a href="#"></a></li> -->
+                        </ul>
+                    </div>
+
+                    <div class="column is-4">
+                        <h2><strong class="category">Hobbies</strong></h2>
+                        <ul>
+                            <li><a href="#">Literature</a></li>
+                            <li><a href="#">Creative Writing</a></li>
+                            <li><a href="#">Songwriting</a></li>
+                            <li><a href="#">Guitar/Music</a></li>
+                            <li><a href="#">Art & Creation</a></li>
+                            <li><a href="#">Camping</a></li>
+                            <li><a href="#">Hiking</a></li>
+                            <li><a href="#">Backpacking</a></li>
+                            <li><a href="#">Exercise</a></li>
+                            <li><a href="#">Cooking</a></li>
+                            <li><a href="#">Front-end Web Dev</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="content has-text-centered">
+                    <p>
+                        <a class="icon" href="https://github.com/JonathanDavis22">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </p>
+                    <div class="control level-item">
+                        <a href="https://github.com/dansup/bulma-templates">
+                            <div class="tags has-addons">
+                                <span class="tag is-dark">Shit Here</span>
+                                <span class="tag is-info">More Shit Here</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </body>
+<html>
