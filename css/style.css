@@ -1,21 +1,29 @@
 html,body {
-    background: #e6e6e6;
+    background: url("../images/fabric.png");
     font-family: 'Archivo', sans-serif;}
 
 .hero-body .container {
     max-width: 700px;
 }
 
-.hero-body .title {
+/* .hero-body .title {
     color: whitesmoke;
     font-family: 'Questrial', sans-serif;
     font-size: 32pt;
-}
+} */
 
-.hero-body .subtitle {
+/* .hero-body .subtitle {
     color: whitesmoke;
     padding-top: 2rem;
     line-height: 1.5;
+} */
+
+.pageLinks {
+    color: #dcdcdc !important;
+}
+
+#moonIcon {
+    color: #141a4f;
 }
 
 .hero-body {
@@ -27,7 +35,7 @@ html,body {
 }
 
 .hero-head {
-    background: #151d0e;
+    background: #1a1c0d;
     color: whitesmoke;
     font-family: 'Questrial', sans-serif;
 }
@@ -39,6 +47,8 @@ html,body {
 }
 
 #miniInfo {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-size: 11pt;
 }
 
@@ -89,12 +99,48 @@ html,body {
     flex-direction: column;
 }
 
+.fa-envelope-square, .fa-linkedin-in, .fa-github {
+    font-size: 14pt;
+}
+
+.tag {
+    margin: 13px !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt !important;
+}
+
 .footer {
-    background-color: #151d0e;
+    background-color: #1a1c0d;
+    height: 185px;
+}
+
+#contactIcons {
+    padding: 13px;
+}
+
+.icon {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .category {
     color: whitesmoke;
+}
+
+#contact {
+    margin: auto;
+}
+
+.sandLinks {
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+    color: #208dd6 !important;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.sandLinks:hover {
+    color: #404243 !important;
 }
 
 .is-shady {
@@ -140,11 +186,19 @@ footer li:before {
 }
 
 #longhorn {
-    height: 30px;
+    height: 32px;
     margin-top: 40px;
     position: absolute;
-    bottom: 250px;
-    right: 125px;
+    bottom: 500px;
+    left: 125px;
+}
+
+#uwLogo {
+    height: 28px;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 500px;
+    right: 130px;
 }
 
 .projectText, #longInfo, .worksText {
@@ -152,7 +206,7 @@ footer li:before {
 }
 
 .is-info {
-    background-color: #4973a5 !important;
+    background-color: #208dd6 !important;
 }
 
 .is-dark {
@@ -169,7 +223,11 @@ footer li:before {
 }
 
 #bioParagraph {
-    padding: 0px 35px 0px 35px;
+    padding: 15px 35px 0px 35px;
+}
+
+.listItems {
+    color: #333;
 }
 
 #bamazonImage, #bamazonImage2 {
