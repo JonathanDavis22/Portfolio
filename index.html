@@ -32,13 +32,13 @@
                             <a class="navbar-item" href="/">
                                 <p class="is-size-4" id="navbarName">Jonathan M. Davis</p>
                             </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
+                            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                            </a>
                         </div>
-                        <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-menu" id="navMenu">
                             <div class="navbar-end">
                                 <div class="tabs is-right">
                                     <ul>
@@ -218,7 +218,7 @@
                         </article>
                     </div>
 
-                    <div class="tile is-parent is-shady">
+                    <div class="tile is-parent is-shady" id="giftasticCard">
                         <article class="tile is-child notification is-white">
                             <p class="title">Giftastic</p>
                             <p class="subtitle">Giphy API Search Application</p>
@@ -239,83 +239,44 @@
             <div class="level">
                 <div class="card is-shady level">
                     <div class="intro card-content" id="longInfo">
-                        <h2 class="title is-italic" id="bioTitle">
                             <img src="./images/longhorn.svg" id="longhorn">
-                            A Little More About Me
                             <img src="./images/uwlogo.svg" id="uwLogo">
+                        <h2 class="title is-italic" id="bioTitle">
+                            A Little More About Me
                         </h2>
                         <p class="subtitle is-size-6" id="bioParagraph">I am a Full-Stack Web Developer with matching certificate from the University of Washington, Seattle. Coming from a liberal arts background (B.A. Rhetoric and Writing, University of Texas at Austin) and years of professional work in copywriting and market demo/psychographics, not only can I build a full website or web app—I can make sure the copy on it is ace, meeting brand and market targets. I am passionate about eloquent code, team collaboration, and learning more every day.</p>
-                        <div class="card-content" id="longInfo">
-                            <p class="subtitle is-size-6" id="bioParagraph"><strong>Technologies:</strong> HTML5, CSS3, JavaScript, light Java, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, Firebase, MongoDB, MySQL, Database Theory, AJAX, JSON, Command Line, Git/GitHub.</p>
-                            <p class="subtitle is-size-6" id="bioParagraph"><strong>Skills:</strong> Copywriting, Editing, Brand & Content Strategy, Digital Marketing, Content & Design Sense, Responsive Design, FTP, Bug Testing, Dev Tools, Teamwork, Communication, Persuasion, Storytelling.</p>
-                            <p class="subtitle is-size-6" id="bioParagraph"><strong>Hobbies:</strong> Literature, Creative Writing, Music & Playing Music, Art & Creation, Hiking, Camping, Exercise, Cooking, Front-end Web Dev.</p>
+
+                        <div class="columns">
+                            <div class="column" id="longInfo">
+                                <p class="subtitle is-size-6" id="bioParagraph">
+                                    <strong>Technologies</strong> 
+                                    <br>
+                                    <br>
+                                    HTML5, CSS3, JavaScript, light Java, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, Firebase, MongoDB, MySQL, Database Theory, AJAX, JSON, Command Line, Git/GitHub.
+                                </p>
+                            </div>
+                            <div class="column">
+                                <p class="subtitle is-size-6" id="bioParagraph">
+                                    <strong>Relevant Skills</strong> 
+                                    <br>
+                                    <br>
+                                    Copywriting, Editing, Brand & Content Strategy, Digital Marketing, Content & Design Sense, Responsive Design, FTP, Bug Testing, Dev Tools, Teamwork, Communication, Persuasion, Storytelling.</p>
+                            </div>
+                            <div class="column">
+                                <p class="subtitle is-size-6" id="bioParagraph">
+                                    <strong>Hobbies</strong>
+                                    <br>
+                                    <br> 
+                                    Literature, Creative Writing, Music & Playing Music, Art & Creation, Hiking, Camping, Exercise, Cooking, Front-end Web Development.</p>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
     
         <footer class="footer" id="contact">
-            <!-- <div class="container"> -->
-                <!-- <div class="columns">
-                    <div class="column is-one-third is-offset-1">
-                        <h2><strong class="category">Technologies</strong></h2>
-                        <ul class="listItems">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>jQuery</li>
-                            <li>Bootstrap</li>
-                            <li>Bulma</li>
-                            <li>Express.js</li>
-                            <li>React.js</li>
-                            <li>Node.js</li>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
-                            <li>AJAX</li>
-                            <li>APIs</li>
-                            <li>JSON</li>
-                            <li>Command Line</li>
-                            <li>Git/GitHub</li>
-                        </ul>
-                    </div>
-
-                    <div class="column is-one-third">
-                        <h2><strong class="category">Skills</strong></h2>
-                        <ul class="listItems">
-                            <li>Copywriting</li>
-                            <li>Editing</li>
-                            <li>Brand & Content Strategy</li>
-                            <li>Digital Marketing</li>
-                            <li>Content & Design Sense</li>
-                            <li>Responsive Design</li>
-                            <li>FTP</li>
-                            <li>Bug Testing</li>
-                            <li>Dev Tools</li>
-                            <li>Teamwork</li>
-                            <li>Communication</li>
-                            <li>Persuasion</li>
-                            <li>Storytelling</li>
-                        </ul>
-                    </div>
-
-                    <div class="column is-one-third">
-                        <h2><strong class="category">Hobbies</strong></h2>
-                        <ul class="listItems">
-                            <li>Literature</li>
-                            <li>Creative Writing</li>
-                            <li>Songwriting</li>
-                            <li>Guitar/Music</li>
-                            <li>Art & Creation</li>
-                            <li>Camping</li>
-                            <li>Hiking</li>
-                            <li>Backpacking</li>
-                            <li>Exercise</li>
-                            <li>Cooking</li>
-                            <li>Front-end Web Dev</li>
-                        </ul>
-                    </div>
-                </div> -->
 
                 <div class="control level-item">
                         <div class="tags">
@@ -336,7 +297,8 @@
                         </a>
                 </div>
 
-            <!-- </div> -->
         </footer>
+
     </body>
+
 <html>
