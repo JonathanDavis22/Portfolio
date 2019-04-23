@@ -198,7 +198,11 @@ footer li:before {
 }
 
 .projectCard {
-    height: 580px;
+    height: 540px;
+}
+
+#clickyCard {
+    height: 515px;
 }
 
 .is-info {
