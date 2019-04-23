@@ -197,6 +197,10 @@ footer li:before {
     font-size: 13pt;
 }
 
+.projectCard {
+    height: 580px;
+}
+
 .is-info {
     background-color: #208dd6 !important;
 }
