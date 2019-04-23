@@ -193,6 +193,10 @@ footer li:before {
     font-family: 'Lato', sans-serif;
 }
 
+.projectText {
+    font-size: 13pt;
+}
+
 .is-info {
     background-color: #208dd6 !important;
 }
