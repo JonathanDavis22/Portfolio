@@ -23,6 +23,20 @@ html,body {
     /* opacity: .9; */
 }
 
+.navbar {
+    background-color: #1a1c0d !important;
+}
+
+.headshot {
+    top: 25px;
+    right: 70px;
+    height: 128px;
+    width: 155px;
+    border-radius: 50%;
+    border: .75px outset #565135;
+    position: absolute;
+}
+
 .hero-head {
     background: #1a1c0d;
     color: whitesmoke;
@@ -198,9 +212,9 @@ footer li:before {
     font-size: 13pt;
 }
 
-.projectCard {
+/* .projectCard {
     height: 550px;
-}
+} */
 
 .is-info {
     background-color: #208dd6 !important;
