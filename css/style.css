@@ -1,215 +1,223 @@
-html,body {
-    background: url("../images/fabric.png");
-    font-family: 'Archivo', sans-serif;}
+html,
+body {
+  /* background: url("../images/fabric.png"); */
+  font-family: 'Archivo', sans-serif;
+  /* z-index: 1; */
+}
 
 .hero-body .container {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .pageLinks {
-    color: #dcdcdc !important;
-    font-size: 14pt;
+  color: #dcdcdc !important;
+  font-size: 14pt;
 }
 
 #moonIcon {
-    color: #141a4f;
+  color: #141a4f;
 }
 
 .hero-body {
-    background: url(../images/seattle.jpg) no-repeat center;
-    background-size: cover;
-    position: relative;
-    height: 500px;
-    /* opacity: .9; */
+  background: url(../images/seattle.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  /* opacity: .9; */
 }
 
 .navbar {
-    background-color: #1a1c0d !important;
+  background-color: #1a1c0d !important;
 }
 
 .headshot {
-    top: 25px;
-    right: 70px;
-    height: 128px;
-    width: 155px;
-    border-radius: 50%;
-    border: .75px outset #565135;
-    position: absolute;
+  top: 25px;
+  right: 70px;
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.55px outset #565135;
+  position: absolute;
 }
 
 .hero-head {
-    background: #1a1c0d;
-    color: whitesmoke;
-    font-family: 'Questrial', sans-serif;
+  background: #1a1c0d;
+  color: whitesmoke;
+  font-family: 'Questrial', sans-serif;
 }
 
 #navbarName {
-    font-family: 'Questrial', sans-serif;
-    font-size: 20pt;
-    color: whitesmoke;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20pt;
+  color: whitesmoke;
 }
 
 #miniInfo {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 12pt;
+  font-family: 'Lato', sans-serif;
+  /* font-weight: bold; */
+  font-size: 12pt;
 }
 
 .features {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .box.cta {
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
 }
 
 .card-image > .fa {
-    font-size: 8rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: #209cee;
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #209cee;
 }
 
 .card-content .content {
-    font-size: 14px;
-    margin: 1rem 1rem;
+  font-size: 14px;
+  margin: 1rem 1rem;
 }
 
 .card-content .content h4 {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
-    margin-bottom: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
 }
 
 .intro {
-    padding: 5rem 0;
-    text-align: center;
+  padding: 5rem 0;
+  text-align: center;
 }
 
 .sandbox {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .tile.notification {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.fa-envelope-square, .fa-linkedin-in, .fa-github {
-    font-size: 14pt;
+.fa-envelope-square,
+.fa-linkedin-in,
+.fa-github {
+  font-size: 14pt;
 }
 
 .tag {
-    margin: 13px !important;
-    font-family: 'Lato', sans-serif;
-    font-size: 11pt !important;
+  margin: 13px !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 11pt !important;
 }
 
 .footer {
-    background-color: #1a1c0d;
-    height: 185px;
+  background-color: #1a1c0d;
+  height: 185px;
 }
 
 #contactIcons {
-    padding: 13px;
+  padding: 13px;
 }
 
 .icon {
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .category {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 #contact {
-    margin: auto;
+  margin: auto;
 }
 
 .sandLinks {
-    font-size: 12pt;
-    font-family: 'Lato', sans-serif;
-    color: #208dd6 !important;
-    font-weight: bold;
-    text-decoration: none !important;
+  font-size: 12pt;
+  font-family: 'Lato', sans-serif;
+  color: #208dd6 !important;
+  font-weight: bold;
+  text-decoration: none !important;
 }
 
 .sandLinks:hover {
-    color: #404243 !important;
+  color: #404243 !important;
 }
 
 .is-shady {
-    animation: flyintoright .4s backwards;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
-    border-radius: 4px;
-    display: inline-block;
-    margin: 10px;
-    position: relative;
-    transition: all .2s ease-in-out;
+  animation: flyintoright 0.4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
 .is-shady:hover {
-    box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
 }
 
 /*adds font awesome stars*/
 footer li:before {
-    content: '\f1b2';
-    font-family: 'FontAwesome';
-    float: left;
-    margin-left: -1.5em;
-    color: #566c3b;
+  content: '\f1b2';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #566c3b;
 }
 
 .fa-moon {
-    font-size: 85pt;
-    padding-top: 40px;
+  font-size: 85pt;
+  padding-top: 40px;
 }
 
 .fa-react {
-    font-size: 95pt;
-    padding-top: 40px;
-    color: #5fd9fb;
+  font-size: 95pt;
+  padding-top: 40px;
+  color: #5fd9fb;
 }
 
 #skillet {
-    height: 137px;
-    width: 137px;
-    padding-top: 35px;
-    /* padding-bottom: -10px; */
+  height: 137px;
+  width: 137px;
+  padding-top: 35px;
+  /* padding-bottom: -10px; */
 }
 
 #longhorn {
-    height: 32px;
-    margin-top: 40px;
-    position: absolute;
-    bottom: 450px;
-    left: 125px;
+  height: 32px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 450px;
+  left: 125px;
 }
 
 #uwLogo {
-    height: 28px;
-    margin-top: 40px;
-    position: absolute;
-    bottom: 450px;
-    right: 130px;
+  height: 28px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 450px;
+  right: 130px;
 }
 
-.projectText, #longInfo, .worksText {
-    font-family: 'Lato', sans-serif;
+.projectText,
+#longInfo,
+.worksText {
+  font-family: 'Lato', sans-serif;
 }
 
 .projectText {
-    font-size: 13pt;
+  font-size: 13pt;
 }
 
 /* .projectCard {
@@ -217,85 +225,91 @@ footer li:before {
 } */
 
 .is-info {
-    background-color: #208dd6 !important;
+  background-color: #208dd6 !important;
 }
 
 .is-dark {
-    background-color: #404243 !important;
+  background-color: #404243 !important;
 }
 
 #biography {
-    margin-top: 75px;
-    margin-bottom: 125px;
+  margin-top: 75px;
+  margin-bottom: 125px;
 }
 
 #bioTitle {
-    font-family: 'Francois One', sans-serif;
-    font-size: 32px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 32px;
 }
 
 #bioParagraph {
-    padding: 15px 35px 0px 35px;
+  padding: 15px 35px 0px 35px;
 }
 
 .listItems {
-    color: #333;
+  color: #333;
 }
 
-#bamazonImage, #bamazonImage2 {
-    height: 250px;
+#bamazonImage,
+#bamazonImage2 {
+  height: 250px;
 }
 
 #bamazonImage {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 #giftasticImage {
-    height: 300px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 1087px) {
-    .navbar-menu {
-        background-color: #1a1c0d;
-    }
+  .navbar-menu {
+    background-color: #1a1c0d;
+  }
 }
 
 @media only screen and (min-width: 1279px) and (max-width: 4000px) {
-    #longhorn, #uwLogo {
-        top: 5px;
-    }
+  #longhorn,
+  #uwLogo {
+    top: 5px;
+  }
 }
 
 @media only screen and (min-width: 1040px) and (max-width: 1087px) {
-    #longhorn, #uwLogo {
-        top: 5px;
-    }
+  #longhorn,
+  #uwLogo {
+    top: 5px;
+  }
 }
 
 @media only screen and (min-width: 887px) and (max-width: 937px) {
-    #longhorn, #uwLogo {
-        top: 5px;
-    }
+  #longhorn,
+  #uwLogo {
+    top: 5px;
+  }
 }
 
 @media only screen and (min-width: 843px) and (max-width: 863px) {
-    #longhorn, #uwLogo {
-        top: 5px;
-    }
+  #longhorn,
+  #uwLogo {
+    top: 5px;
+  }
 }
 
 @media only screen and (max-width: 887px) {
-    #longhorn, #uwLogo {
-        position: static;
-        margin: -40px 50px 30px 50px;
-        top: -40px;
-    }
+  #longhorn,
+  #uwLogo {
+    position: static;
+    margin: -40px 50px 30px 50px;
+    top: -40px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    #giftasticCard {
-        width: 379px;
-    }
+  #giftasticCard {
+    width: 379px;
+  }
 }
 
 /* @media only screenn and (max-width: 375px) {

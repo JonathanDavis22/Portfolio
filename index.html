@@ -14,6 +14,13 @@
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Archivo:700|Questrial|Lato|Francois+One" rel="stylesheet">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script> -->
+        <script type="text/javascript" src="./js/sketch.js"></script>
+        <script type="text/javascript" src="./js/drop.js"></script>
+
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./js/index.js"></script>
@@ -68,6 +75,7 @@
             <div class="hero-body">
                 <img class="image headshot" src="./images/headshot.png">
             </div>
+            
         </section>
 
         <!-- Lower Infobox -->
@@ -78,10 +86,10 @@
         </div>
 
         <!-- Projects and works Section -->
-        <section class="container">
+        <section class="container" id="projects">
             <div class="columns features">
 
-            <div class="column is-4" id="projects">
+            <div class="column is-4">
                     <div class="card is-shady projectCard">
                         <div class="card-image has-text-centered">
                             <i class='fas fa-moon' id="moonIcon"></i>
@@ -134,8 +142,8 @@
             </div>
 
             <!-- Sandbox Columnnar Grid -->
-            <div class="sandbox worksText">
-                <div class="tile is-ancestor" id="works">
+            <div class="sandbox worksText" id="works">
+                <div class="tile is-ancestor">
                     <div class="tile is-parent is-shady">
                         <article class="tile is-child notification is-white">
                             <p class="title">Train Scheduler</p>
@@ -207,10 +215,10 @@
                     </div>
                 </div>
 
-                <div class="tile is-ancestor" id="bamazonCard">
+                <div class="tile is-ancestor" id="githubFinder">
                     <div class="tile is-parent is-8 is-shady">
                         <article class="tile is-child notification is-white">
-                            <p class="title">Bamazon</p>
+                            <p class="title">Github Finder</p>
                             <p class="subtitle">Node Storefront App</p>
                             <a href="https://github.com/JonathanDavis22/Bamazon" class="sandLinks">GitHub</a>
                             <br>
@@ -222,6 +230,24 @@
                             </div>
                         </article>
                     </div>
+
+                    <div class="tile is-parent is-shady" id="reactGrocery">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">React Grocery List</p>
+                            <p class="subtitle">Giphy API Search Application</p>
+                            <p class="projectText">A JavaScript API-search app that, using jQuery, dynamically updates the page with the GIFs of your choice!</p>
+                            <br>
+                            <a href="https://github.com/JonathanDavis22/Giftastic" class="sandLinks">GitHub</a>
+                            <a href="https://jonathandavis22.github.io/Giftastic/" class="sandLinks">Deployed Version</a>
+                            <br>
+                            <div class="content">
+                                <img src="./images/giftastic.png" alt="Giftastic" id="giftasticImage">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tile is-ancestor" id="bamazonCard">
 
                     <div class="tile is-parent is-shady" id="giftasticCard">
                         <article class="tile is-child notification is-white">
@@ -237,6 +263,22 @@
                             </div>
                         </article>
                     </div>
+
+                    <div class="tile is-parent is-8 is-shady">
+                        <article class="tile is-child notification is-white">
+                            <p class="title">Bamazon</p>
+                            <p class="subtitle">Node Storefront App</p>
+                            <a href="https://github.com/JonathanDavis22/Bamazon" class="sandLinks">GitHub</a>
+                            <br>
+                            <div class="content">
+                                <p class="projectText">Using Node, MySQL, and Inquirer, you can 'shop' for products right in your terminal/Bash. Maybe you'll find that item you've been looking for.</p>
+                                <br>
+                                <img src="./images/bamazon.png" alt="Bamazon" id="bamazonImage">
+                                <img src="./images/bamazon2.png" alt="Bamazon" id="bamazonImage2">
+                            </div>
+                        </article>
+                    </div>
+
                 </div>
 
             </div>
@@ -259,7 +301,7 @@
                                     <strong>Technologies</strong> 
                                     <br>
                                     <br>
-                                    HTML5, CSS3, JavaScript, light Java, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, Firebase, MongoDB, MySQL, Database Theory, AJAX, JSON, Command Line, Git/GitHub.
+                                    HTML5, CSS3, JavaScript, light Java, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, Firebase, MongoDB, MySQL, Database Theory, Postman, AJAX, JSON, Command Line, Git/GitHub.
                                 </p>
                             </div>
                             <div class="column">
