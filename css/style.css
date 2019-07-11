@@ -280,6 +280,10 @@ footer li:before {
   height: 300px;
 }
 
+#reactGrocery {
+  height: 300px;
+}
+
 @media only screen and (max-width: 1087px) {
   .navbar-menu {
     background-color: #1a1c0d;
