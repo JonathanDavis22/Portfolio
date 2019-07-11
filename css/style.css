@@ -255,6 +255,15 @@ footer li:before {
   height: 250px;
 }
 
+#GHFinderImage,
+#GHFinderImage2 {
+  height: 215px;
+}
+
+#GHFinderImage {
+  padding-right: 15px;
+}
+
 #bamazonImage {
   padding-right: 15px;
 }
