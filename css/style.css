@@ -333,9 +333,9 @@ footer li:before {
   }
 }
 
-/* @media only screenn and (max-width: 375px) {
+@media only screenn and (max-width: 375px) {
     body {
         overflow-x: hidden;
         width: 100%;
     }
-} */
+}
