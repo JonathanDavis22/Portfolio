@@ -15,8 +15,8 @@ var canvas;
 // }
 
 function setup() {
-  canvas = createCanvas(1900, 5400);
-  canvas.position(0, 0);
+  canvas = createCanvas(1900, 4750);
+  canvas.position(0, 600);
   canvas.style('z-index', '-1');
   for (var i = 0; i < 500; i++) {
     drops[i] = new Drop();

@@ -121,6 +121,7 @@ body {
 .footer {
   background-color: #1a1c0d;
   height: 185px;
+  bottom: 0;
 }
 
 #contactIcons {
